@@ -780,7 +780,7 @@ server.on('request', function (req, res) {
 
 [Content-Type]: https:developer.mozilla.orgzh-CN/docs/Web/HTTP/Headers/Content-Type	"HTML"
 
-![ip地址和端口](D:\后台\14--Nodejs教程精讲（7天）\nodejs资料（7天）\01\ip地址和端口号.png)
+![](http://image.myblog-tao.cn//ip地址和端口号.png)
 
 #### 重定向
 
@@ -822,8 +822,8 @@ server.on('request', function (req, res) {
       默认读取到的 data 是二进制数据
       而模板引擎的 render 方法需要接收的是字符串
       所以我们在这里需要把 data 二进制数据转为 字符串 才可以给模板引擎使用
-  4. ![](D:\后台\14--Nodejs教程精讲（7天）\nodejs资料（7天）\02\code\服务端渲染.png)
-  5. ![](D:\后台\14--Nodejs教程精讲（7天）\nodejs资料（7天）\02\code\客户端渲染.png)
+  4. ![](http://image.myblog-tao.cn//服务端渲染.png)
+  5. ![](http://image.myblog-tao.cn//客户端渲染.png)
   ```javascript
   var template = require('art-template')
 var fs = require('fs')
@@ -1784,12 +1784,11 @@ pReadFile('./data/a.txt')
   })
 
 ```
-
+![](http://image.myblog-tao.cn//回调函数.png)
 
 
 #### 异步封装API
 
-![](D:\后台\14--Nodejs教程精讲（7天）\nodejs资料（7天）\04\code\回调函数.png)
 
 在crud中对文件进行读取，数据处理api的封装，后导给router.js进行调用
 
@@ -2001,7 +2000,7 @@ User.find({
 
 ### mvvm框架
 
-![](D:\后台\15--Vuejs（11天）\资料\day1\笔记\01.MVC和MVVM的关系图解.png)
+![](http://image.myblog-tao.cn//01.MVC和MVVM的关系图解.png)
 
 ### 为什么要学vue
 
@@ -3902,7 +3901,7 @@ const vm = new Vue({
 })
 ```
 
-![](D:\后台\15--Vuejs（11天）\资料\day10\笔记\vuex概念图.png)
+![](http://image.myblog-tao.cn//vuex概念图.png)
 
 
 
